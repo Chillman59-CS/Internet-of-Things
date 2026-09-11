@@ -1,0 +1,13 @@
+Raspberry Pi 4
+Raspberry Pi OS (64-bit)
+
+Hostname: ChillGuy59
+Username: tuanduong2005
+Password: tuanduong2005
+
+Capital city: Hanoi
+Time zone: Asia/Ho_Chi_Minh
+Keyboard layout: us
+Wifi: ...
+Enable SSH, Raspberry Pi Connect
+
