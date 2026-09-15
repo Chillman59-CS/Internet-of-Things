@@ -10,3 +10,14 @@ sudo pip3 install . --break-system-packages
 grove_ + <TAB> <TAB>
 
 sudo pip3 install seeed-python-dht --break-system-packages
+
+--------------------------------------------------------------
+Reconfigure the ADC library
+--------------------------------------------------------------
+sudo chmod 666 /usr/local/lib/python3.13/dist-packages/grove/adc.py
+
+sudo nano 666 /usr/local/lib/python3.13/dist-packages/grove/adc.py
+
+"Replace" def __init__(self, address = 0x04): "with" def __init__(self, address = 0x08):
+
+sudo chmod 644 /usr/local/lib/python3.13/dist-packages/grove/adc.py
