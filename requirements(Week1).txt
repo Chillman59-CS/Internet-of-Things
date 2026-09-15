@@ -18,6 +18,9 @@ sudo python3 setup.py install --force-pi
 ------------------------------------------------------------
 Check UART mapping
 ------------------------------------------------------------
+(Check Serial Config)
+sudo raspi-config -> Choose Interfacing Options->Serial->No->Yes->OK
+
 ls -l /dev/serial*
 echo "Hello" > /dev/ttyS0
 
