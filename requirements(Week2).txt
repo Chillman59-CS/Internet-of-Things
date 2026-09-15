@@ -8,3 +8,5 @@ sudo pip3 install . --break-system-packages
 
 (Check list supported commands)
 grove_ + <TAB> <TAB>
+
+sudo pip3 install seeed-python-dht --break-system-packages
