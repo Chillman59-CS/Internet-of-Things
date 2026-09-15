@@ -1,1 +1,8 @@
 --------------------------------------------------------------
+Install libraries
+--------------------------------------------------------------
+cd ~/Downloads/
+sudo pip3 install . --break-system-packages
+
+(Check list supported commands)
+grove_ + <TAB> <TAB>
