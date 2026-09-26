@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="FET-IUH IoT Team">
+  <meta name="dcterms.created" content="T6, 14 Thg6 2019 01:37:13 GMT">
+  <meta name="description" content="Design Platform for IoT Laboratory">
+  <meta name="keywords" content="Internet of things, LoraWan, Raspberry Pi 4">
+  <title>Sample Website of FET-IUH IoT Team</title>
+</head>
+
+<body>
+  <h2 align=center>FET-IUH IoT Team</h2>
+  <p align=center>-*- This is a sample Website -*-</p>
+  <div align=left>
+    <p>
+      <font color="red"><b>FET-IUH IoT Team</b></font><br />
+      <font color="blue">Design Platform for IoT Laboratory</font><br />
+    </p>
+    <p>
+      <font color="green">
+        Click on button for control LED on Raspberry Pi 4<br />
+      </font>
+      <button onclick="LED_On()">On</button>
+      <button onclick="LED_Off()">Off</button>
+    </p>
+  </div>
+
+  <script>
+    var url = "";
+    var params_on = "";
+    var params_off = "";
+
+    function LED_On() {
+      xhr.open("POST", url, true);
+      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhr.send(params_on);
+    }
+
+    function LED_Off() {
+      xhr.open("POST", url, true);
+      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhr.send(params_off);
+    }
+  </script>
+</body>
+
+</html>
