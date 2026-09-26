@@ -1,0 +1,10 @@
+https://thingspeak.mathworks.com/
+
+--------------------------------------------------------------
+Install libraries
+--------------------------------------------------------------
+sudo apt update
+sudo apt install curl -y
+
+sudo pip3 install paho-mqtt --break-system-packages
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
