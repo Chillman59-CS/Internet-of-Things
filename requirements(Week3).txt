@@ -8,3 +8,6 @@ sudo apt install curl -y
 
 sudo pip3 install paho-mqtt --break-system-packages
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+
+cd ~/.Node-RED
+npm install Node-RED-dashboard
